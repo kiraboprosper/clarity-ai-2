@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getTasks, addTask, sendCommand, getPlan } from "./api";
-
+import VoiceAssistant from "./components/VoiceAssistant";
 export default function App() {
   const [tasks, setTasks] = useState([]);
   const [plan, setPlan] = useState([]);
